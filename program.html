@@ -15,7 +15,7 @@
     <link href="jvstyle.css" type="text/css" rel="stylesheet">
 <style>
 .collapsible {
-  background-color: #999;
+  background-color: #777;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -27,7 +27,7 @@
 }
 
 .collapsible:hover {
-  background-color: #777;
+  background-color: #606060;
 }
 
 .talkContent {
@@ -37,6 +37,43 @@
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+
+.collapsible2 {
+  background-color: #197700;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible3 {
+  background-color: #197700;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible2:hover {
+  background-color: #145800;
+}
+
+.talkContent2 {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
 </style>
   </head>
   <body style="font-family: IBM Plex Serif">
@@ -143,6 +180,11 @@
 		      the main relevant concepts and algorithms and 
 		      surveys selected related work including applications and more recent results.
               </div>
+              <button class="collapsible2">Bio</button>
+              <div class="talkContent2">
+                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                <p>Georg Gottlob is a Professor of  Computer Science at the University of Calabria. Until recently, he was a Royal Society Research Professor at the Computer Science Department of the University of Oxford, a Fellow of St John's College, Oxford, and an Adjunct Professor at TU Wien. His interests include knowledge representation, database theory, query processing, web data extraction, and (hyper)graph decomposition techniques. Gottlob has received the Wittgenstein Award from the Austrian National Science Fund and  the Ada  Lovelace Medal (UK).  He  is an ACM Fellow, an ECCAI Fellow, a Fellow of the Royal Society, and a member of the Austrian Academy of Sciences, the German National Academy of Sciences, and the Academia Europaea. He chaired the Program Committees of IJCAI 2003 and ACM PODS 2000 and is on the Editorial Boards of JACM and JCSS. He was a founder of Lixto, a web data extraction firm acquired in 2013 by McKinsey &amp; Company. In 2015 he co-founded Wrapidity, a spin out of Oxford University based on fully automated web data extraction technology developed in the context of an  ERC Advanced Grant. Wrapidity was  acquired by Meltwater, an internationally operating media intelligence company. Gottlob then co-founded the Oxford spin-out DeepReason.AI, which provided knowledge graph and rule-based reasoning software to customers in various industries. DeeoReason.AI was also acquired by Meltwater.</p>
+              </div>
               <hr>
             </div>
             <div>
@@ -171,6 +213,12 @@
 		      more recent results about local vs. global consistency of bags. <br>
 		      <br>
 		      This is joint work with Albert Atserias at UPC Barcelona.  
+              </div>
+              <button class="collapsible2">Bio</button>
+              <div class="talkContent2">
+                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                <p>Phokion Kolaitis is a Distinguished Research Professor of Computer Science and Engineering at the University of California Santa Cruz and a Principal Research Staff Member at the IBM Almaden Research Center.  His research interests include principles of database systems, logic in computer science, and computational complexity.</p>
+                <p>Kolaitis is a Fellow of the American Association for the Advancement of Science (AAAS), a Fellow of the Association for Computing Machinery (ACM), a Foreign Member of Academia Europaea, and a Foreign Member of the Finnish Academy of Science and Letters. He has held a Guggenheim Fellowship and is a co-winner of the 2020 ACM SIGLOG Alonzo Church Award, a co-winner of both the 2008 and the 2014 ACM PODS Alberto O. Mendelzon Test-of-Time Award, and a co-winner of the 2013 International Conference on Database Theory Test-of-Time Award.  At present, Kolaitis serves as the President of the Association for Symbolic Logic.</p>
               </div>
               <hr>
             </div>
@@ -209,6 +257,12 @@
                       epi-corecursion, and its applications to defining functions that
                       manipulate infinitary structures with bindings such as Boehm trees.
               </div>
+              <button class="collapsible3">Bio</button>
+              <div class="talkContent2">
+                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                TBA
+              </div>
+
               <hr>
             </div>
             <div>
@@ -224,8 +278,13 @@
 
                 (Co)-authoring, (re)using, and maintaining complex artifacts such as knowledge bases, ontologies, or software are complex tasks that are supported by a range of powerful tools and for which best practice/methodologies have been developed. Some of these relate to <em>modularity</em> and  <em>patterns</em>: the former has been investigated for ontology engineering with some interesting results related to re-use and also to automated reasoning and optimisation. (Design) patterns have been hailed as a reusable engineering solution that supports high quality design, reuse, and comprehension in a number of disciplines including software and ontology engineering. For ontologies, a lot of effort has been spent on identifying, collecting, and classifying patterns - with seemingly little effect on ontology engineering practice. SNOMED CT is an interesting case in point as it is increasingly built using modelling templates as well as tools designed to support the usage of these templates, but the resulting OWL ontology has no signs of the usage of these templates. Recently, we developed a generic framework for identifying <em>regularities</em> in formal languages  and investigated various variants of the problem of finding minimal rewritings of a given language using <em>macros</em>. We have developed related algorithms and applied these to existing, large OWL ontologies including SNOMET C; we found that we can find minimal rewritings of these in less than a minute. An interesting point of this application relates to the rather unusual syntax of OWL that poses some non-trivial problems due to the presence of a mixture of ranked and unranked symbols such as “SubClassOf” being binary whereas “DisjointClasses” taking basically any number of symbols.
 In this talk, I will provide a general overview of the (ontology) engineering challenges mentioned above around modularity and patterns/regularities, and discuss various related solutions and insights gained.   
-
               </div>
+              <button class="collapsible2">Bio</button>
+              <div class="talkContent2">
+                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                <p>Uli Sattler is a professor in the Department of Computer Science at The University of Manchester. She has worked in logics and automated reasoning for knowledge representation and ontology engineering, and has worked on the design of and reasoning algorithms for the description logics underlying the ontology language OWL. More recently, she has investigated various “non-standard” reasoning problems including those related to explaining entailments, modularity, terminology induction, and regularities/rewriting. Uli has obtained her PhD in 1998 from RWTH Aachen under the supervision of Franz Baader.</p>
+              </div>
+
               <!--<hr>-->
             </div>
 					  	<!--<li><span class="justify">
@@ -283,5 +342,24 @@ In this talk, I will provide a general overview of the (ontology) engineering ch
 	  });
 	}
 	</script>
+	<script>
+	var coll2 = document.getElementsByClassName("collapsible2");
+	var i2;
+
+	for (i2 = 0; i2 < coll2.length; i2++) {
+	  coll2[i2].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var content = this.nextElementSibling;
+	    if (content.style.maxHeight){
+	      content.style.maxHeight = null;
+	    } else {
+	      content.style.maxHeight = content.scrollHeight + "px";
+	    } 
+	  });
+	}
+	</script>
+
+
+
   </body>
 </html>
